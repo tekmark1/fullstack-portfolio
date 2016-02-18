@@ -1,0 +1,44 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+/* header */
+.my-info {
+	padding-top: 20px;
+}
+
+.my-image {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.my-name {
+	padding-top: 20px;
+}
+
+/* portfolio info */
+.top-row {
+	padding-bottom: 10px;
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+	.website,
+	.arcade,
+	.map,
+	.resume,
+	.feed,
+	.degree {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 992px) {
+	.my-info,
+	.my-name {
+		text-align: center;
+	}
+}

@@ -1,0 +1,66 @@
+html, body {
+	height: 100%;
+
+
+}
+
+#title {
+	padding-top: 0px;
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+	text-align: center;
+	width: 100%;
+
+
+}
+.search-and-list {
+	padding-left: 7px;
+	width: 100%;
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+#search {
+	width: 100%;
+	margin-left: 7px;
+	border: 1px solid #747704;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	background-color: #F5F5F0;
+}
+
+
+#venue-list {
+	padding-left: 7px;
+	list-style-type: none;
+}
+
+#venue-list li:hover {
+	font-weight: bold;
+}
+
+.map-and-list {
+
+	height: 100%;
+	width: 100%;
+}
+#map {
+	text-align: center;
+	height: 100%;
+	border: 1px solid #747704;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+
+}
+
+.map-info {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
